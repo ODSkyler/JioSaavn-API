@@ -244,6 +244,7 @@ export default async function handler(
   const token =
     req.query.token;
 
+  // Pagination starts from page 0.
   const page =
     req.query.page || "0";
 
