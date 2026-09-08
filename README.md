@@ -48,7 +48,7 @@
 
 <b>Album details:</b> /api/album?token={albumToken}
 
-<b>Artist details:</b> /api/artist?token={artistToken}&page=0
+<b>Artist details:</b> /api/artist?token={artistToken}&page={pageNumber} // Default 0
 
 <b>Playlist details:</b> /api/playlist?token={playlistToken}
 </pre>
