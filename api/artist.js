@@ -245,7 +245,7 @@ export default async function handler(
     req.query.token;
 
   const page =
-    req.query.page || "1";
+    req.query.page || "0";
 
   if (!token) {
     return res.status(400).json({
